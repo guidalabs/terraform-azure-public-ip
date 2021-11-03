@@ -17,3 +17,9 @@ variable "sku" {
   type    = string
   default = "Standard"
 }
+
+variable "tags" {
+  type        = map(string)
+  description = "Any tags can be set"
+  default     = {}
+}
